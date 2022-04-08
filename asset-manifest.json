@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Educational_website/static/css/main.8472a67e.chunk.css",
+    "main.js": "/Educational_website/static/js/main.c46f168b.chunk.js",
+    "main.js.map": "/Educational_website/static/js/main.c46f168b.chunk.js.map",
+    "runtime-main.js": "/Educational_website/static/js/runtime-main.e0a9d072.js",
+    "runtime-main.js.map": "/Educational_website/static/js/runtime-main.e0a9d072.js.map",
+    "static/js/2.10f37dbb.chunk.js": "/Educational_website/static/js/2.10f37dbb.chunk.js",
+    "static/js/2.10f37dbb.chunk.js.map": "/Educational_website/static/js/2.10f37dbb.chunk.js.map",
+    "static/js/3.593b7ed5.chunk.js": "/Educational_website/static/js/3.593b7ed5.chunk.js",
+    "static/js/3.593b7ed5.chunk.js.map": "/Educational_website/static/js/3.593b7ed5.chunk.js.map",
+    "index.html": "/Educational_website/index.html",
+    "static/css/main.8472a67e.chunk.css.map": "/Educational_website/static/css/main.8472a67e.chunk.css.map",
+    "static/js/2.10f37dbb.chunk.js.LICENSE.txt": "/Educational_website/static/js/2.10f37dbb.chunk.js.LICENSE.txt",
+    "static/media/Biomisa-banner.5bebf2c1.jpeg": "/Educational_website/static/media/Biomisa-banner.5bebf2c1.jpeg",
+    "static/media/Debbye.93986e96.png": "/Educational_website/static/media/Debbye.93986e96.png",
+    "static/media/Gleydson.fa328afd.png": "/Educational_website/static/media/Gleydson.fa328afd.png",
+    "static/media/Hylan_PNG.93986e96.png": "/Educational_website/static/media/Hylan_PNG.93986e96.png",
+    "static/media/Samuel.9dc82091.png": "/Educational_website/static/media/Samuel.9dc82091.png",
+    "static/media/logo 0.2e9eec7e.jpeg": "/Educational_website/static/media/logo 0.2e9eec7e.jpeg",
+    "static/media/logo 10.ae29c4af.jpeg": "/Educational_website/static/media/logo 10.ae29c4af.jpeg",
+    "static/media/logo 30.4126e6fd.jpeg": "/Educational_website/static/media/logo 30.4126e6fd.jpeg",
+    "static/media/mind-idea.81999bf0.png": "/Educational_website/static/media/mind-idea.81999bf0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0a9d072.js",
+    "static/js/2.10f37dbb.chunk.js",
+    "static/css/main.8472a67e.chunk.css",
+    "static/js/main.c46f168b.chunk.js"
+  ]
+}
