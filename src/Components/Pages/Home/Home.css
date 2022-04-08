@@ -1,0 +1,260 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap'); */
+
+
+.Home--Display{
+  display: flex;
+
+  justify-content: space-between;
+
+  width: 100%;
+
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+
+  margin-left: -20px;
+}
+
+.Home--Section{
+
+  position: relative;
+
+  table-layout: fixed;
+
+  background-color: crimson;
+
+}
+
+.Home-page--title{
+
+  margin-top: 30pt;
+
+}
+
+.Home--Title--Section {
+
+  display: flex;
+  margin-left: 50px ;
+  justify-content: center;
+
+
+  height: max-content;
+  width: 50%;
+
+  /*
+  border-style: solid;
+  border-width: 0px 5px 0px 0px;
+  border-color: #fc5602;
+  */
+
+  margin-top: 10px;
+  padding-right: 50px;
+
+}
+
+.orange-border-bar {
+
+  background-color: #fc5602;
+
+  border-radius: 30px;
+
+  margin-top: 15pt;
+
+  width: 6pt;
+
+  height: 90%;
+
+  box-shadow: 0px 0px 10px #fc5602;
+
+  margin-right: auto;
+
+}
+
+.Home-guide--section{
+
+  display: flex;
+
+  justify-content: center;
+
+  min-width: 55%;
+
+}
+
+.Home-page--guide {
+
+  padding-top: 30px;
+
+  width: 100%;
+
+}
+
+.Home-page--guide h2 {
+
+  text-align: center;
+
+  font-family:  'Nunito','Montserrat', 'Bebas Neue', cursive, Arial, Helvetica, sans-serif;
+  font-size: 24pt;
+  font-weight: 900;
+}
+
+.Home-page--title {
+
+  font-family: 'Bebas Neue','Nunito', 'Montserrat', cursive, Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+
+  color: black;
+
+  line-height: normal;
+
+}
+
+.Home-page--title .orange--title {
+
+  margin-top: -25pt;
+
+  color: #fc5602;
+
+}
+
+.home-summary--area  {
+
+  margin-top: 45pt;
+
+  line-height: normal;
+
+}
+.home-summary--area .Link-Button{
+
+ padding-bottom: 15px;
+
+}
+
+.home-summary--area .Link-Button a {
+
+  font-family:'Nunito', 'Bebas Neue', 'Montserrat', cursive, Arial, Helvetica, sans-serif;;
+
+  padding: 10px;
+
+  border-radius: 50px;
+
+  background-color: #4ce300;
+
+  color: black;
+}
+
+.home-summary--area .Link-Button:hover .Link-Button--border-bar{
+
+  width: 0%;
+  height: 0pt;
+
+}
+
+.home-summary--area .Link-Button:hover a{
+
+  transition: all ease-in 0.3s;
+
+  background-color: #ff7b00;
+}
+
+.home-summary--area .menu--section{
+
+
+
+  border-width: 0px 0px 0px 0px;
+
+
+
+}
+
+.nav-link {
+
+  font-size: 15pt;
+  font-weight: bold;
+  font-family: 'Nunito', 'Bebas Neue', 'Montserrat', cursive, Arial, Helvetica, sans-serif;
+
+  color: black
+}
+
+.Header .nav-button{
+
+  display: inline-block;
+
+  margin-top: 9pt;
+  margin-left: 10pt;
+
+
+  padding: 0px;
+}
+
+.headers--pages{
+  display: inline-block;
+
+  float: right;
+
+  margin-right: 10pt;
+}
+
+.Header .nav-button a {
+
+  font-family: 'Nunito','Montserrat', 'Bebas Neue', cursive, Arial, Helvetica, sans-serif;;
+
+  font-size: 18pt;
+  font-weight:bold;
+
+  padding: 0;
+
+  margin-left: 0px;
+  margin-right: 15px;
+}
+
+.Header .nav-button:hover .nav-button--border-bar{
+
+  margin-left: 10px ;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.home--button .nav-button:hover .nav-button--border-bar{
+
+  margin-left: 0px;
+  width: 100%;
+}
+
+.home--button{
+  display: inline-block;
+  width: min-content;
+}
+
+/*
+.Header .nav-button:hover {
+  border-style: solid;
+  border-color: white;
+
+  border-radius: 10px 10px 0px 0;
+  border-width: 0px 0px 5px 0px;
+}
+*/
+
+.Header {
+
+  max-height: min-content;
+}
+
+.Link-Button--icon {
+
+  padding-left: 25px;
+  margin-right: 10px;
+
+  max-width: 45px;
+
+}
+
+.Home--Title--Section{
+
+}

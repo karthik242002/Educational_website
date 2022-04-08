@@ -1,0 +1,100 @@
+.Header{
+
+  border-radius: 30px 30px 0px 0px;
+
+  min-height: min-content;
+  min-width: 90vw;
+
+  display: flex;
+
+
+  color: white;
+
+  background-color: #20ff07b2;
+
+}
+
+.text-area{
+
+  position: relative;
+
+  margin: 0px 80pt 0px 50pt;
+
+  width: 100%;
+}
+
+.ScreenName{
+
+  display: inline-block;
+
+  font-size: 22pt;
+  font-weight: bold;
+
+  margin: 0px;
+}
+
+.ScreenMap{
+
+  display: inline-block;
+
+  font-size: 18pt;
+  font-weight: bold;
+
+  float: right;
+
+}
+
+
+.Header--perfil-image  .PerfilImage{
+
+  margin-left: -10px;
+
+  border-radius: 100%;
+  border-width: 0;
+  border-color: #c9d8c1;
+
+  position: relative;
+
+  width: 130%;
+  height: 130%;
+}
+
+.Header--perfil-image .PerfilImage--Background{
+
+  position: absolute;
+
+  border-style: solid;
+  border-color:#000000;
+  border-width: 5px;
+
+  align-items: flex-end;
+
+  width: 65pt;
+  height: 65pt;
+
+  margin-top: -30pt;
+  margin-left: -55pt;
+
+}
+
+.Header--logo {
+
+  position: absolute;
+
+  width: 60pt;
+  height: 60pt;
+}
+
+.Header--logo .PerfilImage--Background{
+
+  position: absolute;
+
+  width: 60pt;
+  height: 60pt;
+
+  margin-top: -25pt;
+  margin-left: -15pt;
+
+}
+
+

@@ -1,0 +1,30 @@
+.PerfilImage--Background{
+
+  background-color: #fe5d00;
+
+  border-radius: 100%;
+
+
+  min-width: 55pt;
+  min-height: 55pt;
+
+
+  display:flex;
+  align-items: center;
+
+
+}
+
+.PerfilImage{
+
+  border-style: solid;
+  border-radius: 100%;
+  border-width: 5px;
+  border-color: #4ce300;
+
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+}
+

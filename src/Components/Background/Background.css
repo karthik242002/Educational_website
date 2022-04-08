@@ -1,0 +1,101 @@
+
+
+.App-body {
+
+  background-image: linear-gradient(to bottom, #9ab8ec ,
+  #ffffff);
+
+
+  line-height: 0;
+
+  min-height: 100vh;
+
+  scroll-behavior: smooth;
+
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.Pane{
+
+  position: relative;
+
+  margin-top: -10vh;
+
+/*
+  padding: 20px;
+
+*/
+
+  padding: 0px;
+
+  background-color: #ffffff;
+
+  color: black;
+
+  box-shadow: 0px 0px 50px #8fdafc;
+
+  border-radius: 32px;
+
+  /*
+  border-style: solid;
+  border-width: 2px;
+
+  border-color: #4ce300;
+  */
+
+
+
+  max-width: 90vw;
+
+  height: max-content;
+
+  word-wrap: break-word;
+
+  transition: all ease-in-out 1s;
+}
+
+
+
+.gradient{
+
+  padding: 5vh 10vw 5vh 10vw;
+
+  min-height: 100vh;
+  display: flex;
+
+  justify-content: center;
+
+  background-image: linear-gradient(to bottom, #aaebff, transparent 150%);
+}
+
+
+
+#Tio-Misa--banner {
+
+
+
+  width: 100vw;
+
+}
+
+
+#csk{
+  width: 1200px;
+  height:500px;
+  max-width: auto;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 700px) {
+  #csk {
+    padding-left: 80px;
+
+  }
+}

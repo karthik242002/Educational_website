@@ -1,0 +1,53 @@
+
+.Teacher-Card {
+
+  min-width: max-content;
+
+  display: flex;
+
+  justify-content: space-between;
+
+
+}
+
+.Teacher-Card * {
+  position:relative;
+}
+
+.TeacherCard--Iframe{
+
+display: inline-block;
+
+  height: 100%;
+
+  border-radius: 10px;
+
+  margin-right: 20px;
+  margin-top: 30px;
+
+}
+
+.TeacherCard--Iframe  {
+
+  border-radius: 5px;
+}
+
+.TeacherCard--Details{
+
+display: inline-block;
+
+margin-top: -40pt;
+}
+
+.TeacherCard--Name{
+
+  font-size: 24pt;
+
+}
+
+.TeacherCard--Title{
+
+  margin-top: -60px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}

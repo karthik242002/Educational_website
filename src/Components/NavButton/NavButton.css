@@ -1,0 +1,64 @@
+.nav-button{
+
+  background-color: transparent;
+
+  margin-bottom: 50px;
+
+
+  transition: all ease-in-out 0.3s;
+}
+
+.nav-link{
+  padding-bottom: 0px;
+  margin: 0px;
+  line-height: 0px;
+}
+
+.nav-button a {
+
+  border-style: solid;
+  border-width: 0px;
+  border-color: white;
+
+
+  display: block;
+
+  text-decoration: none;
+  color: white;
+
+  transition: all ease-in 0.1s;
+}
+
+.nav-button--border-bar {
+
+  border-width: 0px;
+
+  width: 0px;
+  height: 0px;
+
+  background-color: white;
+
+
+  transition: all ease-in-out 0.3s;
+}
+
+nav .active {
+
+  padding-top: 20px;
+  padding-left: 5px ;
+  padding-bottom: 20px;
+
+  border-style: solid;
+  border-color: white;
+  border-left-width: 6px;
+
+}
+
+
+.nav-button:hover .nav-button--border-bar{
+
+  width: 90%;
+  height: 2pt;
+}
+
+

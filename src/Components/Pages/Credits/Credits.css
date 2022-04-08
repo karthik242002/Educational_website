@@ -1,0 +1,807 @@
+/* 
+@font-face{
+
+  font-family: 'Hansief';
+
+  src: url(../../../Fonts/Hansief\ Rough.otf);
+}
+
+@font-face{
+
+  font-family: 'Henrik-Regular';
+
+  src: url(../../../Fonts/Henrik-Regular.otf);
+}
+
+@font-face{
+
+  font-family: 'Jaime-Blues';
+
+  src: url(../../../Fonts/Jaime\ Blues.ttf);
+}
+
+@font-face{
+
+  font-family: 'OldGrowth-Regular';
+
+  src: url(../../../Fonts/OldGrowth-Regular.otf);
+}
+
+@font-face{
+
+  font-family: 'Hamurz';
+
+  src: url(../../../Fonts/Hamurz\ Free\ Version.ttf);
+} */
+
+.Credits--Display{
+
+  display: flex;
+
+  justify-content: space-between;
+
+  width: 100%;
+
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+
+}
+
+.Credits--Section{
+
+ position: relative;
+
+  float: left;
+
+  table-layout: fixed;
+
+ line-height: normal;
+
+ width: 100%;
+
+ background-color: black;
+
+ border-radius: 0px 0px 0px 20px;
+
+ color: #fc5602;
+
+}
+
+.Credits--Authors-Title, .Credits--Source-Title {
+
+  font-size: 30pt;
+  font-family: 'Henrik-Regular';
+
+  border-style: double;
+  border-color: #fc5602;
+  border-width: 0px 0px 10px 0px;
+/*
+    padding-top: 25pt;
+    padding-bottom: 15pt;
+*/
+}
+
+.Credits--Programmers-Title, .Credits--Researchers-Title {
+
+
+  margin-top: 20px;
+
+  font-size: 24pt;
+  font-family: 'Hansief';
+}
+
+.Credits--Border-bar {
+  margin: 5px;
+
+  width: 100%;
+  height: 3pt;
+
+  background-color: #fc5602;
+}
+
+
+/*
+ //////////////////// Karthik Card /////////////////////
+*/
+
+#Karthik--Card {
+
+  color: #4ce300;
+  position: relative;
+
+  width: 100%;
+
+  float: right;
+
+  padding-left: 15px;
+
+  padding-bottom: 35px;
+
+  border-radius: 20px 0px 0px 20px ;
+
+  box-shadow: 0px 0px 30px #4ce300;
+
+/*>background-image: linear-gradient(to left, #4ce300, #740ecd);*/
+
+  background-image: linear-gradient(to left, #4ce300 , black 60%);
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#Karthik--Card img {
+
+  float: right;
+
+  /*
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 3px;
+  border-radius: 100%;
+  */
+
+  margin-right: -40px;
+
+  max-width: 68%;
+  max-height: 68%;
+
+  border-radius: 10%;
+
+  box-shadow: 0px 0px 10px #4ce300;
+  padding-bottom: 0px;
+}
+
+#Karthik--Card .Link-Button {
+
+  width: 40px;
+  height: 40px;
+
+  display:inline-block;
+
+  margin-right: 18px;
+}
+
+#Karthik--Card .Link-Button:hover .Link-Button--border-bar{
+
+  margin-top: -10px;
+  margin-left: 3px;
+
+  width: 85%;
+  height: 2pt;
+
+  border-radius: 25px;
+
+  background-color: #4ce300;
+
+}
+
+#Karthik--Card .Card-contact {
+
+
+}
+
+/*
+ ////////////////////////////////////////////////////
+*/
+
+
+/*
+ //////////////////// Hylan Card /////////////////////
+*/
+
+#Hylan--Card {
+
+  color: #4ce300;
+  position: relative;
+
+  width: 100%;
+
+  float: right;
+
+  padding-left: 15px;
+  padding-bottom: 35px;
+
+  border-radius: 20px 0px 0px 20px ;
+
+  box-shadow: 0px 0px 30px #4ce300;
+
+/*>background-image: linear-gradient(to left, #4ce300, #740ecd);*/
+
+  background-image: linear-gradient(to left, #4ce300 , black 60%);
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#Hylan--Card img {
+
+  float: right;
+
+  /*
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 3px;
+  border-radius: 100%;
+  */
+
+  margin-right: -40px;
+
+  max-width: 66%;
+  max-height: 68%;
+
+  border-radius: 10%;
+
+  box-shadow: 0px 0px 10px #4ce300;
+  padding-bottom: 0px;
+}
+
+#Hylan--Card .Link-Button {
+
+  width: 40px;
+  height: 40px;
+
+  display:inline-block;
+
+  margin-right: 18px;
+}
+
+#Hylan--Card .Link-Button:hover .Link-Button--border-bar{
+
+  margin-top: -10px;
+  margin-left: 3px;
+
+  width: 85%;
+  height: 2pt;
+
+  border-radius: 25px;
+
+  background-color: #4ce300;
+
+}
+
+#Hylan--Card .Card-contact {
+
+
+}
+
+/*
+ ////////////////////////////////////////////////////
+*/
+
+
+/*
+ //////////////////// Deborah Card /////////////////////
+*/
+
+#Deborah--Card {
+
+  color: rgb(115, 16, 207);
+  position: relative;
+
+  width: 100%;
+
+  float: right;
+
+  padding-left: 15px;
+  padding-bottom: 35px;
+
+  border-radius: 20px 0px 0px 20px ;
+
+  box-shadow: 0px 0px 25px rgb(115, 16, 207);
+
+/*>background-image: linear-gradient(to left, #4ce300, #740ecd);*/
+
+  background-image: linear-gradient(to left, rgb(115, 16, 207)  , black 60%);
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+#Deborah--Card img {
+
+  float: right;
+
+  /*
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 3px;
+  border-radius: 100%;
+  */
+
+  margin-right: -40px;
+
+  max-width: 68%;
+  max-height: 68%;
+
+  border-radius: 10%;
+
+  box-shadow: 0px 0px 13px rgb(115, 16, 207);
+  padding-bottom: 0px;
+}
+
+#Deborah--Card .Link-Button {
+
+  width: 40px;
+  height: 40px;
+
+  display:inline-block;
+
+  margin-right: 18px;
+
+}
+
+#Deborah--Card .Link-Button a {
+
+  color:rgb(115, 16, 207);
+
+  font-size: 10pt;
+  font-weight: 300;
+}
+
+#Deborah--Card .Link-Button:hover .Link-Button--border-bar{
+
+  margin-top: -10px;
+  margin-left: 3px;
+
+  width: 85%;
+  height: 2pt;
+
+  border-radius: 25px;
+
+  background-color: rgb(115, 16, 207);
+
+}
+
+#Deborah--Card .Card-contact {
+
+
+}
+
+
+/*
+ ////////////////////////////////////////////////////
+*/
+
+
+/*
+ //////////////////// Milena Card /////////////////////
+*/
+
+#Milena--Card {
+
+  color: rgb(115, 16, 207);
+  position: relative;
+
+  width: 100%;
+
+  float: right;
+
+  padding-left: 15px;
+  padding-bottom: 35px;
+
+  border-radius: 20px 0px 0px 20px ;
+
+  box-shadow: 0px 0px 25px rgb(115, 16, 207);
+
+/*>background-image: linear-gradient(to left, #4ce300, #740ecd);*/
+
+  background-image: linear-gradient(to left, rgb(115, 16, 207)  , black 60%);
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+#Milena--Card img {
+
+  float: right;
+
+  /*
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 3px;
+  border-radius: 100%;
+  */
+
+  margin-right: -40px;
+  margin-left: 10px;
+
+  max-width: 68%;
+  max-height: 68%;
+
+  border-radius: 10%;
+
+  box-shadow: 0px 0px 13px rgb(115, 16, 207);
+  padding-bottom: 0px;
+}
+
+#Milena--Card .Link-Button {
+
+  width: 40px;
+  height: 40px;
+
+  display:inline-block;
+
+  margin-right: 18px;
+
+}
+
+#Milena--Card .Link-Button a {
+
+  color:rgb(115, 16, 207);
+
+  font-size: 10pt;
+  font-weight: 300;
+}
+
+#Milena--Card .Link-Button:hover .Link-Button--border-bar{
+
+  margin-top: -10px;
+  margin-left: 3px;
+
+  width: 85%;
+  height: 2pt;
+
+  border-radius: 25px;
+
+  background-color: rgb(115, 16, 207);
+
+}
+
+#Milena--Card .Card-contact {
+
+
+}
+
+
+/*
+ ////////////////////////////////////////////////////
+*/
+
+
+/*
+ //////////////////// Gleydson Card /////////////////////
+*/
+
+#Gleydson--Card {
+
+  color: rgb(115, 16, 207);
+  position: relative;
+
+  width: 100%;
+
+  float: right;
+
+  padding-left: 15px;
+  padding-bottom: 35px;
+
+  border-radius: 20px 0px 0px 20px ;
+
+  box-shadow: 0px 0px 25px rgb(115, 16, 207);
+
+/*>background-image: linear-gradient(to left, #4ce300, #740ecd);*/
+
+  background-image: linear-gradient(to left, rgb(115, 16, 207)  , black 60%);
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  padding-bottom: 40px;
+
+}
+
+#Gleydson--Card img {
+
+  float: right;
+
+  /*
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 3px;
+  border-radius: 100%;
+  */
+
+  margin-right: 0px;
+  margin-left: 15px;
+
+  padding-left: 20px;
+
+
+  max-width: 60%;
+  max-height: 60%;
+
+  border-radius: 10%;
+
+  box-shadow: 0px 0px 13px rgb(115, 16, 207);
+  padding-bottom: 0px;
+}
+
+#Gleydson--Card .Link-Button {
+
+  width: 40px;
+  height: 40px;
+
+  display:inline-block;
+
+  margin-right: 18px;
+
+}
+
+#Gleydson--Card .Link-Button a {
+
+  color:rgb(115, 16, 207);
+
+  font-size: 10pt;
+  font-weight: 300;
+}
+
+#Gleydson--Card .Link-Button:hover .Link-Button--border-bar{
+
+  margin-top: -10px;
+  margin-left: 3px;
+
+  width: 85%;
+  height: 2pt;
+
+  border-radius: 25px;
+
+  background-color: rgb(115, 16, 207);
+
+}
+
+#Gleydson--Card .Card-contact {
+
+
+}
+
+
+/*
+ ////////////////////////////////////////////////////
+*/
+
+#Authors {
+
+  display: block;
+
+  min-height: max-content;
+
+}
+
+#Sources {
+
+  display: block;
+
+  min-height: max-content;
+}
+
+/*
+///////////////////////// Karthik Cunha Card //////////////
+*/
+
+#Teachers--Karthik-Cunha {
+
+  color: #4ce300;
+
+  padding-left: 30px;
+
+  border-radius: 20px 0px 0px 20px ;
+
+  box-shadow: 0px 0px 30px #4ce300;
+
+  min-width: max-content;
+
+  background-image: linear-gradient(to left, #4ce300 , black 60%);
+
+  margin-top: -10px;
+  margin-bottom: 30px;
+
+  margin-bottom: 100px;
+}
+
+#Teachers--Karthik-Cunha .Link-Button {
+
+
+  display:inline-block;
+
+  margin-right: 18px;
+}
+
+#Teachers--Karthik-Cunha .Link-Button:hover .Link-Button--border-bar{
+
+  margin-top: -10px;
+  margin-left: 3px;
+
+  width: 85%;
+  height: 2pt;
+
+  border-radius: 25px;
+
+  background-color: #4ce300;
+
+}
+
+
+/*
+///////////////////////// Misael Card //////////////
+*/
+
+#Teachers--Misael {
+
+  color: #fc5602;
+
+  padding-left: 30px;
+
+  border-radius: 20px 0px 0px 20px ;
+
+  box-shadow: 0px 0px 30px #fc5602;
+
+  min-width: max-content;
+
+  background-image: linear-gradient(to left, #fc5602 , black 60%);
+
+  margin-top: -40px;
+  margin-bottom: 30px;
+
+  margin-bottom: 100px;
+}
+
+#Teachers--Misael .Link-Button {
+
+
+  display:inline-block;
+
+  margin-right: 18px;
+}
+
+#Teachers--Misael .Link-Button:hover .Link-Button--border-bar{
+
+  margin-top: -10px;
+  margin-left: 3px;
+
+  width: 85%;
+  height: 2pt;
+
+  border-radius: 25px;
+
+  background-color: #fc5602;
+
+}
+
+
+/*
+///////////////////////// Kennedy Card //////////////
+*/
+
+#Teachers--Kennedy {
+
+  color: blue;
+
+  padding-left: 30px;
+
+  border-radius: 20px 0px 0px 20px ;
+
+  box-shadow: 0px 0px 30px blue;
+
+  min-width: max-content;
+
+  background-image: linear-gradient(to left, blue , black 60%);
+
+  margin-top: -40px;
+  margin-bottom: 30px;
+
+  margin-bottom: 100px;
+}
+
+#Teachers--Kennedy .Link-Button {
+
+
+  display:inline-block;
+
+  margin-right: 18px;
+}
+
+#Teachers--Kennedy .Link-Button:hover .Link-Button--border-bar{
+
+  margin-top: -10px;
+  margin-left: 3px;
+
+  width: 85%;
+  height: 2pt;
+
+  border-radius: 25px;
+
+  background-color: blue;
+
+}
+
+/*
+///////////////////////// Jubilut Card //////////////
+*/
+
+#Teachers--Jubilut {
+
+  color: rgb(255, 136, 0);
+
+  padding-left: 30px;
+
+  border-radius: 20px 0px 0px 20px ;
+
+  box-shadow: 0px 0px 30px rgb(255, 136, 0);
+
+  min-width: max-content;
+
+  background-image: linear-gradient(to left, rgb(255, 136, 0) , black 60%);
+
+  margin-top: -40px;
+  margin-bottom: 30px;
+
+}
+
+#Teachers--Jubilut .Link-Button {
+
+
+  display:inline-block;
+
+  margin-right: 18px;
+}
+
+#Teachers--Jubilut .Link-Button:hover .Link-Button--border-bar{
+
+  margin-top: -10px;
+  margin-left: 3px;
+
+  width: 85%;
+  height: 2pt;
+
+  border-radius: 25px;
+
+  background-color: rgb(255, 136, 0);
+
+}
+
+/*
+///////////////////////// Jubilut Card //////////////
+*/
+
+#Teachers--Guilherme {
+
+  color: rgb(115, 16, 207);
+
+  padding-left: 30px;
+
+  border-radius: 20px 0px 0px 20px ;
+
+  box-shadow: 0px 0px 30px rgb(115, 16, 207);
+
+  min-width: max-content;
+
+  background-image: linear-gradient(to left, rgb(115, 16, 207) , black 60%);
+
+  margin-top: 65px;
+  margin-bottom: 30px;
+
+}
+
+#Teachers--Guilherme .Link-Button {
+
+
+  display:inline-block;
+
+  margin-right: 18px;
+}
+
+#Teachers--Guilherme .Link-Button:hover .Link-Button--border-bar{
+
+  margin-top: -10px;
+  margin-left: 3px;
+
+  width: 85%;
+  height: 2pt;
+
+  border-radius: 25px;
+
+  background-color: rgb(115, 16, 207);
+
+}

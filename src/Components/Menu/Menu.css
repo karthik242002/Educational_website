@@ -1,0 +1,34 @@
+.Menu{
+
+  position: relative;
+
+  float: right;
+
+  padding-left: 10pt;
+  padding-right: 15pt;
+
+
+  /*95.3%*/
+
+  height: auto;
+
+  min-width: max-content;
+
+  background-color: #00ef24;
+
+  border-radius: 0 0 30px 0;
+
+  color: white;
+  font-size: 15pt;
+  font-weight: bolder;
+
+  transition: all ease-in-out 0.4;
+}
+
+.Menu h2 {
+
+  padding-bottom: 20px;
+  padding-top: 20px
+}
+
+
